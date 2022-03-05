@@ -26,6 +26,19 @@ header nav
     float: right;
     width: 285px;
 }
+
+footer .container .contact 
+{
+    float: left;
+    width: 400px;
+}
+
+footer .container .sitemap 
+{
+    float: right;
+    width: 455px;
+}
+
 main 
 {
     background: white;
