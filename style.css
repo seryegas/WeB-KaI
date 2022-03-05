@@ -16,6 +16,10 @@ header
     background: white;
     overflow: auto;
 }
+main 
+{
+    background: white;
+}
 header h1 
 {
     float: left;
@@ -39,7 +43,8 @@ footer .container .sitemap
     width: 455px;
 }
 
-main 
+main .container .content 
 {
-    background: white;
+    float: left;
+    width: 500px;
 }
