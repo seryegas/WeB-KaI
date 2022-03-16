@@ -1,6 +1,7 @@
 body 
 {
     background: #f9e933;
+    font-family: sans-serif;
 }
 
 header, main, footer 
@@ -20,6 +21,19 @@ main
 {
     background: white;
 }
+
+a 
+{ 
+    text-decoration: none;
+    color: #0f13fc;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: #cf0000;
+}
+
 header h1 
 {
     float: left;
