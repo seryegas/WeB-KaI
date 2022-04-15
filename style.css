@@ -90,7 +90,7 @@ main .container .content
 }
 .content input {
 	display: block;
-  	width: 100%;
+  	width: 90%;
   	height: calc(1.5rem + 2px);
   	padding: 0.375rem 0.75rem;
   	font-family: inherit;
@@ -104,15 +104,17 @@ main .container .content
   	border-radius: 0.25rem;
   	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   	margin: 3px 0;
+    margin-left: 15px;
 }
 .content button {
 	appearance: none;
   	border: 0;
   	border-radius: 5px;
-  	background: red;
+  	background: gray;
  	color: white;
   	padding: 8px 16px;
   	font-size: 16px;
+    margin-left: 15px;
 }
 main .content{
 	background-color: white;
