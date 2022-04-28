@@ -33,3 +33,12 @@ http.createServer(app).listen(3000);
 app.get("/todos.json", function(req, res) {
     res.json(toDos);
 });
+app.use(express.urlencoded({ extended: true }));
+app.post("/todos", function(req, res) {
+    // сейчас объект сохраняется в req.body
+    var newToDo = req.body;
+    console.log(newToDo);
+    toDos.push(newToDo);
+    console.log("Данные были отправлены на сервер!");
+    res.json({"message":"Вы размещаетесь на сервере!"});
+})
